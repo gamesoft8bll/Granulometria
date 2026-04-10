@@ -1,0 +1,70 @@
+body {
+    font-family: "Segoe UI";
+    background: linear-gradient(135deg,#1e3c72,#2a5298);
+    margin:0;
+}
+
+.container {
+    max-width:750px;
+    margin:auto;
+    padding:15px;
+}
+
+.header {
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+    color:white;
+}
+
+.card {
+    background:white;
+    padding:15px;
+    margin:10px 0;
+    border-radius:12px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.2);
+}
+
+table {
+    width:100%;
+    border-collapse:collapse;
+}
+
+th {
+    background:#34495e;
+    color:white;
+    padding:8px;
+}
+
+td {
+    padding:8px;
+    border-bottom:1px solid #ddd;
+}
+
+input {
+    width:70px;
+    text-align:center;
+}
+
+button {
+    width:100%;
+    padding:12px;
+    margin-top:5px;
+    border:none;
+    border-radius:6px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:nth-child(1){ background:#27ae60; } /* calcular */
+button:nth-child(2){ background:#e67e22; } /* limpar */
+button:nth-child(3){ background:#2980b9; } /* pdf */
+
+th, td {
+    text-align:center;
+}
+
+.green { color:#27ae60; }
+.red { color:#e74c3c; }
+.yellow { color:#f1c40f; }
